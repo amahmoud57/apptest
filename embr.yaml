@@ -1,7 +1,7 @@
-platform: nodejs
-platformVersion: "20"
-autoDeploy: true
-
-run:
-  port: 8080
-  startCommand: npm start
+name: apptest
+backend:
+  platform: nodejs
+  platformVersion: "20"
+  run:
+    port: 8080
+    start: npm start
